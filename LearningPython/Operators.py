@@ -95,3 +95,25 @@ print(f"After a //= b : {a}")
 a = 40
 a **= 2
 print(f"After a **= 2 : {a}")
+
+#============================== |
+#       Bitwise Operator        |
+#============================== |
+
+AND = 12 & 10
+print("AND : " , AND)
+
+OR = 12 | 10
+print("OR : " , OR)
+
+XOR = 12 ^ 10
+print("XOR : " , XOR)
+
+Complement = ~15
+print("Complement : ",Complement)
+
+RightShift = 12>>2
+print("RightShift : ", RightShift)
+
+LeftShift = 12<<3
+print("LeftShift : ", LeftShift)
